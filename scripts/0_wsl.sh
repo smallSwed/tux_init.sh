@@ -1,0 +1,1 @@
+which wslpath && curl --resolve 'codeload.github.com:443:20.201.28.149' 'https://codeload.github.com/epomatti/wsl2-dns-fix-config/tar.gz/refs/tags/v1.0.1' -o wsl2-dnsfix.tar.gz && tar -xf wsl2-dnsfix.tar.gz && cd wsl2-dns-fix-config-1.0.1 && sudo sh ./run.sh
