@@ -1,5 +1,5 @@
 TARGET="$1"
-nnn_header='# ======NNN======'
+
 nnn_setup='''
 n ()
 {
@@ -37,6 +37,6 @@ if [ -f /usr/share/nnn/quitcd/quitcd.bash_zsh ]; then
     source /usr/share/nnn/quitcd/quitcd.bash_zsh
 fi
 '''
-
 echo "Setup NNN in $TARGET ..."
-# echo "$nnn_setup" >> "$TARGET"
+sudo $TUXINIT_PACKAGE_MANAGER install -y nnn
+echo "$nnn_setup" >> "$TARGET"
