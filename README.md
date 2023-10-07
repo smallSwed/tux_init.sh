@@ -1,2 +1,2 @@
 # tux_init.sh
-Script to setup my tools on Ubuntu system after a fresh install
+Script to setup my tools on linux systems after a fresh install (ubuntu/fedora/wsl)
